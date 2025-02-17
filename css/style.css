@@ -124,6 +124,7 @@ body {
     display: flex;
     align-items: center;
     gap: 16px;
+
 }
 
 .creator-name p,
@@ -140,7 +141,7 @@ body {
     transition: 0.5s;
 }
 
-.name:hover {
+.creator-name:hover .name {
     color: hsl(178, 100%, 50%);
     text-shadow: 0 4px 2px hsl(0, 0%, 100%);
 
